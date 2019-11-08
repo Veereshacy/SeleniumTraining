@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Suite" parallel="tests">
+	<test name="Test1">
+		<parameter name="browser" value="chrome"></parameter>
+		<classes>
+			<!-- <class name="Testng2.NewTest2" /> -->
+			<class name="SeleniumPro.StaticDropDown" />
+
+		</classes>
+	</test>
+	<test name="Test2">
+		<parameter name="browser" value="ie"></parameter>
+		<classes>
+			<!-- <class name="Testng2.NewTest2" /> -->
+			<class name="SeleniumPro.StaticDropDown" />
+
+		</classes>
+	</test>
+	<test name="Test3">
+		<parameter name="browser" value="firfox"></parameter>
+		<classes>
+			<!-- <class name="Testng2.NewTest2" /> -->
+			<class name="SeleniumPro.StaticDropDown" />
+
+		</classes>
+
+	</test>
+</suite>
